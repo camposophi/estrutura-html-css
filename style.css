@@ -1,0 +1,76 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    front-family: Arial, sans-serif;
+}
+body{
+    background-color: aliceblue;
+    color: black;
+    line-height: 1.6;
+}
+
+/* Cabeçalho e Navegação */
+header{
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1{
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+}
+header h2{
+    font-size: 1.2em;
+    color: #bdc3c7;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #3498db;
+}
+
+/* Conteúdo Principal */
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+section{
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section h2{
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Rodapé */
+footer{
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
